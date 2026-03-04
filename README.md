@@ -2,6 +2,11 @@
 
 A Discord bot for monitoring Republic AI testnet validators and compute jobs.
 
+
+## Preview
+
+![Republic AI Discord Bot](assets/bot-preview.png)
+
 ## Features
 - `/validator <name>` - Get validator info
 - `/rank` - Top validators leaderboard  
