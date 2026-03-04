@@ -93,7 +93,7 @@ async def status(ctx):
 @bot.command(name="jobs")
 async def jobs(ctx, count: int = 10):
     await ctx.typing()
-    data = await fetch(f"{REST_URL}/republic/computevalidation/job")
+    data = await fetch(f"{REST_URL}/republic/computevalidation/v1/job")
     if not data:
         await ctx.send("Error fetching data.")
         return
